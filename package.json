@@ -32,7 +32,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --hot --progress --inline --watch --host=0.0.0.0"
+    "start": "./node_modules/.bin/webpack-dev-server --hot --progress --watch"
   },
   "author": "",
   "license": "ISC"
