@@ -1,4 +1,5 @@
 # Redux/React Base Project:
+React/Redux base project used as a template to start a new project.
 
 ## Instructions:
 
