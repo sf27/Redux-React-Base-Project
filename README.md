@@ -4,18 +4,22 @@ React/Redux base project used as a template to start a new project.
 ## Instructions:
 
 ### Docker:  
-1. Build the docker image:  
+1. Clone the repo:  
+   `git clone git@github.com:sf27/Redux-React-Base-Project.git`  
+2. Build the docker image:  
    Run in console: `cd Redux-React-Base-Project/ && docker-compose build`  
-2. Starts the containers in the background and leaves them running.:  
+3. Starts the containers in the background and leaves them running.:  
    Run in console: `docker-compose up -d`  
-3. Open the following URL: http://localhost:8080/  
+4. Open the following URL: http://localhost:8080/  
 
-### Without docker  
-1. Install the dependencies:  
+### Without docker
+1. Clone the repo:  
+  `git clone git@github.com:sf27/Redux-React-Base-Project.git`
+2. Install the dependencies:  
    Run in console: `cd Redux-React-Base-Project/ && npm install`  
-2. To run the dev server:  
+3. To run the dev server:  
    Run in console: `npm start`  
-3. Open the following URL: http://localhost:8080/  
+4. Open the following URL: http://localhost:8080/  
 
 **Technologies:**  
    React/Redux, Docker, Webpack, npm  
