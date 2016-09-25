@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  node:
+      extends:
+        file: docker-compose-common.yml
+        service: node
+      command: npm start
+      ports:
+        - '8080:8080'
+      expose: [8080]
